@@ -24,11 +24,11 @@ Configuration steps
 ==========
 
 1.  Server<br />
-run in terminal in project name folder:
+run in terminal in the project name folder:
 **_php artisan serve_**
 
 2.  Database<br />
-There is posibility to refresh db:
+There is posibility to refresh db (run in terminal in the project name folder):
 -   and add default records in tables (users, publishers, magazines):<br />
     **_php artisan migrate:refresh --seed_**
 -   add only tables without data:<br />
