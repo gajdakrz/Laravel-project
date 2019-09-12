@@ -44,6 +44,8 @@ How to use
 -   magazine's name/part of the name
 -   list of publishers
 
+![screenshot_2019-09-12 11-45-45](https://user-images.githubusercontent.com/51199020/64773900-76952b00-d553-11e9-8578-971c246abecf.png)
+
 License
 =======
 
