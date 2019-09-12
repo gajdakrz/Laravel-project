@@ -1,4 +1,4 @@
-##Magazines list - based on Laravel
+# Magazines list - based on Laravel
 
 Introdution
 ===========
@@ -17,18 +17,22 @@ Installation
 
 The aplication is based on Laravel 5.8 framework (<https://www.laravel.com/>)
 and installation doc on page above.
-There is no need to install database 
+There is no need to install database. The aplication is based on db sqlite (<https://www.sqlite.org/>) and db is inside application with data (users, magazines,publishers).
 
 
 Configuration steps
 ==========
 
-1. Server
+1.  Server<br />
 run in terminal in project name folder:
-php artisan serve
+**_php artisan serve_**
 
-2, Database
-
+2.  Database<br />
+There is posibility to refresh db:
+-   and add default records in tables (users, publishers, magazines):<br />
+    **_php artisan migrate:refresh --seed_**
+-   add only tables without data:<br />
+    **_php artisan migrate:refresh_**
 
 How to use
 ==========
@@ -36,9 +40,9 @@ How to use
 1.  Register and log on to home page. Default is added user:admin, password:admin
 
 2.  Filter magazines based on values: 
-    -magazine's id
-    -magazine's name/part of the name
-    -list of publishers
+-   magazine's id
+-   magazine's name/part of the name
+-   list of publishers
 
 License
 =======
